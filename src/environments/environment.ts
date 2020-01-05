@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCr-70l2kyhKvJfaM6TCn0GYG8qbHIhLNw",
+    authDomain: "muxima-artes.firebaseapp.com",
+    databaseURL: "https://muxima-artes.firebaseio.com",
+    projectId: "muxima-artes",
+    storageBucket: "muxima-artes.appspot.com",
+    messagingSenderId: "879813427913",  
+  }
 };
 
 /*
